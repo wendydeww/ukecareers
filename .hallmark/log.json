@@ -1,0 +1,32 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "shape": "app screen",
+  "theme": "coral",
+  "axes": "light/grotesk-sans/warm",
+  "hero": "none (app)",
+  "nav": "kept sidebar",
+  "footer": "none",
+  "imagery": "none",
+  "photos": [],
+  "entry": "dashboard",
+  "signature": "action-items ledger leading the dashboard",
+  "sections": [
+   "dashboard",
+   "initiatives",
+   "initiative",
+   "sponsors",
+   "sponsor",
+   "availability",
+   "glossary",
+   "my tasks"
+  ],
+  "waived": [
+   "coral-restraint (pastel accents by request)"
+  ],
+  "prompt": "Coral redesign of the UKECareers operations tracker with pastel accents",
+  "date": "2026-11-14"
+ }
+]

@@ -1,6 +1,6 @@
 /* UKECareers – Supabase sync layer: auth, versioned saves, realtime, presence, mobile shell */
 (function(){'use strict';
-const C=window.UKEC_CONFIG||{},U=window.UKECSync={},COLS=['tasks','sponsors','log','avail','inits','profiles','gloss'];
+const C=window.UKEC_CONFIG||{},U=window.UKECSync={},COLS=['tasks','sponsors','log','avail','inits','profiles','gloss','links'];
 let sb=null,ver={},cache={},cbs={},tm={},st='local',saving=0,saved=0,lastSync=null,online=[],errMsg='',person='';
 COLS.forEach(c=>cache[c]={});
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -18,7 +18,7 @@ function ensureBar(){if($('#bar'))return;const b=document.createElement('div');b
  window.addEventListener('hashchange',close);$('#so').onclick=()=>sb&&sb.auth.signOut();
  window.addEventListener('online',()=>{st='connecting';ui();COLS.forEach(c=>cbs[c]&&pull(c))});window.addEventListener('offline',()=>{st='offline';ui()});ui()}
 function card(h){const d=document.createElement('div');d.id='login';d.innerHTML='<div class="lc">'+h+'</div>';document.body.appendChild(d);return d}
-function login(){return new Promise(res=>{const d=card('<h1>UKECareers <em>workspace</em></h1><p class="mut">Sign in with your team email.</p><form><input id="lE" type="email" autocomplete="email" placeholder="you@email.com" required><input id="lP" type="password" autocomplete="current-password" placeholder="Password"><button class="p" id="lGo">Sign in</button></form><button type="button" class="g" id="lMl">Email me a sign-in link instead</button><div id="lM" class="sm mut"></div>');
+function login(){return new Promise(res=>{const d=card('<h1>UKECareers workspace</h1><p class="mut">Sign in with your team email.</p><form><input id="lE" type="email" autocomplete="email" placeholder="you@email.com" required><input id="lP" type="password" autocomplete="current-password" placeholder="Password"><button class="p" id="lGo">Sign in</button></form><button type="button" class="g" id="lMl">Email me a sign-in link instead</button><div id="lM" class="sm mut"></div>');
  const m=t=>$('#lM').textContent=t;
  d.querySelector('form').onsubmit=async e=>{e.preventDefault();m('Signing in…');const{error}=await sb.auth.signInWithPassword({email:$('#lE').value.trim(),password:$('#lP').value});if(error)m(error.message)};
  $('#lMl').onclick=async()=>{const email=$('#lE').value.trim();if(!email)return m('Enter your email first.');const{error}=await sb.auth.signInWithOtp({email,options:{shouldCreateUser:false,emailRedirectTo:location.origin+location.pathname}});m(error?error.message:'Check your inbox for the sign-in link.')};
