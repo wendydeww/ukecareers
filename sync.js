@@ -70,7 +70,7 @@ const IC={plus:'<path d="M12 5v14M5 12h14"/>',edit:'<path d="M4 20h4L19 9l-4-4L4
 const ICR=[[/^\+/,'plus'],[/^edit\b/i,'edit'],[/^(delete|remove)\b/i,'trash'],[/^view logs$/i,'logs'],[/^view details$/i,'open']];
 function iconize(){document.querySelectorAll('main button:not(.ib):not(.rtg)').forEach(b=>{if(b.closest('.tfb'))return;const t=b.textContent.trim();if(!t)return;
  if(b.querySelector('svg')){[...b.childNodes].forEach(c=>{if(c.nodeType===3&&c.textContent.trim()){const s=document.createElement('span');s.className='bl';s.textContent=c.textContent.trim();c.replaceWith(s)}});b.classList.add('ib');if(!b.getAttribute('aria-label'))b.setAttribute('aria-label',t);return}
- const r=ICR.find(([re])=>re.test(t));if(!r)return;b.classList.add('ib','ibx');if(!b.getAttribute('aria-label'))b.setAttribute('aria-label',t.replace(/^\+\s*/,''));b.innerHTML=SV(IC[r[1]])+'<span class="bl">'+esc(t)+'</span>'})}
+ const r=ICR.find(([re])=>re.test(t));if(!r)return;b.classList.add('ib','ibx');if(r[1]==='plus')b.classList.add('p');if(!b.getAttribute('aria-label'))b.setAttribute('aria-label',t.replace(/^\+\s*/,''));b.innerHTML=SV(IC[r[1]])+'<span class="bl">'+esc(t)+'</span>'})}
 // columns summarised on the collapsed row (in table order); everything else waits for expand
 const META={'Assigned':1,'Owner(s)':1,'Responsible':1,'Type':1,'Dates':1,'Deadline':1,'University':1,'Priority':1,'Status':1,'QC status':1,'Availability':1},OPEN=new Set();
 const rkey=r=>{const s=r.querySelector('[data-st],[data-qc]'),f=r.querySelector('td');return(location.hash.split('/')[0]||'#dash')+'|'+(s?(s.dataset.st||s.dataset.qc):(f?f.textContent.trim().slice(0,80):''))};

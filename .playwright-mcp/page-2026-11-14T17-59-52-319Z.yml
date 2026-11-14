@@ -1,0 +1,920 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - img "UKECareers" [ref=e5]
+        - generic [ref=e6]: Operations Tracker 2026/27
+      - link "Dashboard" [ref=e7] [cursor=pointer]:
+        - /url: "#dash"
+      - link "Initiative Tracker" [ref=e11] [cursor=pointer]:
+        - /url: "#inits"
+      - link "QC Panel" [ref=e15] [cursor=pointer]:
+        - /url: "#qc"
+      - link "Sponsor Tracker" [ref=e19] [cursor=pointer]:
+        - /url: "#spons"
+      - link "Team Availability" [ref=e22] [cursor=pointer]:
+        - /url: "#avail"
+      - link "Resources" [ref=e26] [cursor=pointer]:
+        - /url: "#gloss"
+      - link "My Profile" [ref=e29] [cursor=pointer]:
+        - /url: "#me"
+      - generic [ref=e33]:
+        - generic [ref=e34]: Local-only mode
+        - generic [ref=e35]:
+          - button "Export" [ref=e36] [cursor=pointer]
+          - button "Tasks CSV" [ref=e37] [cursor=pointer]
+    - main [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "Good afternoon!" [level=1] [ref=e41]
+          - paragraph [ref=e42]: 54 tasks in motion across 14 initiatives. Here’s where everyone stands.
+        - paragraph [ref=e43]: 14 Nov 2026Careers Office 2026/27
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: 10%
+          - generic [ref=e47]: Overall progress
+        - generic [ref=e48]:
+          - generic [ref=e49]: "6"
+          - generic [ref=e50]: Completed
+        - generic [ref=e51]:
+          - generic [ref=e52]: "10"
+          - generic [ref=e53]: Due this week
+        - generic [ref=e54]:
+          - generic [ref=e55]: "5"
+          - generic [ref=e56]: Overdue
+      - generic [ref=e57]:
+        - generic [ref=e58]: Action items 54
+        - generic [ref=e59]:
+          - button "Show or hide Action items" [expanded] [ref=e60] [cursor=pointer]
+          - button "View logs" [ref=e63] [cursor=pointer]
+          - button "Add item" [ref=e67] [cursor=pointer]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - searchbox "Search tasks" [ref=e72]
+          - generic [ref=e73]:
+            - combobox "Filter by status" [ref=e74]:
+              - option "All statuses" [selected]
+              - option "Not Started"
+              - option "In Progress"
+              - option "Pending External Response"
+              - option "Blocked"
+              - option "Completed"
+            - combobox "Filter by priority" [ref=e75]:
+              - option "All priorities" [selected]
+              - option "High"
+              - option "Medium"
+              - option "Low"
+            - combobox "Filter by initiative" [ref=e76]:
+              - option "All initiatives" [selected]
+              - option "OPS"
+              - option "TOWN"
+              - option "TMCF"
+              - option "BMS"
+              - option "SOC"
+              - option "TAB"
+              - option "FINLIT"
+              - option "CASE"
+              - option "RCE"
+              - option "CCBF"
+              - option "CCLC"
+              - option "CCET"
+              - option "SMCS"
+              - option "EXP"
+            - combobox "Filter by assignee" [ref=e77]:
+              - option "All assignees" [selected]
+              - option "Adam"
+              - option "Alisha"
+              - option "Ashton"
+              - option "Jonathan"
+              - option "Keiff"
+              - option "Matthew"
+              - option "Olivia"
+              - option "Ronan"
+              - option "Sofea"
+              - option "Wendy"
+              - option "Xin Yi"
+              - option "Yi Lingg"
+              - option "Zulaikha"
+            - generic [ref=e78]:
+              - checkbox "Overdue only" [ref=e79]
+              - text: Overdue only
+          - generic [ref=e80]: 54 of 54
+        - generic [ref=e81]:
+          - generic [ref=e82] [cursor=pointer]:
+            - generic [ref=e86]:
+              - text: Create functional brief for affiliates (KC, AMEU, MACFIS)
+              - generic [ref=e87]:
+                - generic [ref=e88]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e89]: Ashton
+            - generic [ref=e90]:
+              - generic [ref=e91]: Deadline
+              - text: 14 Sept 2026
+              - generic [ref=e92]: Overdue
+            - generic [ref=e93]:
+              - generic [ref=e96]: In Progress
+              - button "Done" [ref=e97]
+          - generic [ref=e100] [cursor=pointer]:
+            - generic [ref=e104]:
+              - text: Reach out to stakeholders at target companies (tailor messages)
+              - generic [ref=e105]:
+                - generic [ref=e106]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e107]: Ashton
+            - generic [ref=e108]:
+              - generic [ref=e109]: Deadline
+              - text: 14 Sept 2026
+              - generic [ref=e110]: Overdue
+            - generic [ref=e111]:
+              - generic [ref=e114]: In Progress
+              - button "Done" [ref=e115]
+          - generic [ref=e118] [cursor=pointer]:
+            - generic [ref=e122]:
+              - text: Career Compass Proposal
+              - generic [ref=e123]:
+                - generic [ref=e124]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e125]: Wendy
+            - generic [ref=e126]:
+              - generic [ref=e127]: Deadline
+              - text: 1 Oct 2026
+              - generic [ref=e128]: Overdue
+            - generic [ref=e129]:
+              - generic [ref=e132]: In Progress
+              - button "Done" [ref=e133]
+          - generic [ref=e136] [cursor=pointer]:
+            - generic [ref=e140]:
+              - text: RCE and Career Town Hall – coordinate with RCs and SCs
+              - generic [ref=e141]:
+                - generic [ref=e142]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e143]: Wendy
+            - generic [ref=e144]:
+              - generic [ref=e145]: Deadline
+              - text: 1 Oct 2026
+              - generic [ref=e146]: Overdue
+            - generic [ref=e147]:
+              - generic [ref=e150]: In Progress
+              - button "Done" [ref=e151]
+          - generic [ref=e154] [cursor=pointer]:
+            - generic [ref=e158]:
+              - text: Create Career Town Hall Google Form and distribute to SCs
+              - generic [ref=e159]:
+                - generic [ref=e160]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e161]: Sofea, Olivia, Keiff
+            - generic [ref=e162]:
+              - generic [ref=e163]: Deadline
+              - text: 1st week Oct 2026
+            - generic [ref=e164]:
+              - generic [ref=e169]: In Progress
+              - button "Done" [ref=e170]
+          - generic [ref=e173] [cursor=pointer]:
+            - generic [ref=e177]:
+              - text: Analyse, compile and visualise data into the Career Town Hall Report
+              - generic [ref=e178]:
+                - generic [ref=e179]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e180]: Sofea, Olivia, Keiff
+            - generic [ref=e181]:
+              - generic [ref=e182]: Deadline
+              - text: Late Oct 2026
+            - generic [ref=e183]:
+              - generic [ref=e188]: Not Started
+              - button "Done" [ref=e189]
+          - generic [ref=e192] [cursor=pointer]:
+            - generic [ref=e196]:
+              - text: Nudge RCs to monitor MSoc submissions
+              - generic [ref=e197]:
+                - generic [ref=e198]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e199]: Sofea, Olivia, Keiff
+            - generic [ref=e200]:
+              - generic [ref=e201]: Deadline
+              - text: Oct 2026
+            - generic [ref=e202]:
+              - generic [ref=e207]: In Progress
+              - button "Done" [ref=e208]
+          - generic [ref=e211] [cursor=pointer]:
+            - generic [ref=e215]:
+              - text: Explore UKECouncil + MSocs + Sponsors Dinner 2027
+              - generic [ref=e216]:
+                - generic [ref=e217]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+                - generic [ref=e218]: Wendy
+            - generic [ref=e219]:
+              - generic [ref=e220]: Deadline
+              - text: 31 Oct 2026
+              - generic [ref=e221]: Overdue
+            - generic [ref=e222]:
+              - generic [ref=e225]: In Progress
+              - button "Done" [ref=e226]
+          - generic [ref=e229] [cursor=pointer]:
+            - generic [ref=e234]:
+              - text: Propose Initiation Day structure and flow to BMS for approval
+              - generic [ref=e235]:
+                - generic [ref=e236]: "BMS x UKEC: Young Professionals Mentorship Programme"
+                - generic [ref=e237]: Ashton, Wendy
+            - generic [ref=e238]:
+              - generic [ref=e239]: Deadline
+              - text: 1st week Nov 2026
+            - generic [ref=e240]:
+              - generic [ref=e244]: In Progress
+              - button "Done" [ref=e245]
+          - generic [ref=e248] [cursor=pointer]:
+            - generic [ref=e253]:
+              - text: Design Initiation Day poster and create registration Google Form
+              - generic [ref=e254]:
+                - generic [ref=e255]: "BMS x UKEC: Young Professionals Mentorship Programme"
+                - generic [ref=e256]: Ashton, Wendy
+            - generic [ref=e257]:
+              - generic [ref=e258]: Deadline
+              - text: 1st week Nov 2026
+            - generic [ref=e259]:
+              - generic [ref=e263]: Not Started
+              - button "Done" [ref=e264]
+          - generic [ref=e267] [cursor=pointer]:
+            - generic [ref=e271]:
+              - text: Email final report to all sponsors and partners
+              - generic [ref=e272]:
+                - generic [ref=e273]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e274]: Sofea, Olivia, Keiff
+            - generic [ref=e275]:
+              - generic [ref=e276]: Deadline
+              - text: Early Nov 2026
+            - generic [ref=e277]:
+              - generic [ref=e282]: Not Started
+              - button "Done" [ref=e283]
+          - generic [ref=e286] [cursor=pointer]:
+            - generic [ref=e291]:
+              - text: On-the-day support at Initiation Day (King’s College London)
+              - generic [ref=e292]:
+                - generic [ref=e293]: "BMS x UKEC: Young Professionals Mentorship Programme"
+                - generic [ref=e294]: Ashton, Wendy
+            - generic [ref=e295]:
+              - generic [ref=e296]: Deadline
+              - text: 2nd week Nov 2026
+            - generic [ref=e297]:
+              - generic [ref=e301]: Not Started
+              - button "Done" [ref=e302]
+          - generic [ref=e305] [cursor=pointer]:
+            - generic [ref=e309]:
+              - text: "Career Pathway After Graduation: Accounting & Finance Major (x MACFIS) – Instagram & LinkedIn post (Canva IG layout)"
+              - generic [ref=e310]:
+                - generic [ref=e311]: "@UKECareers Social Media Platform"
+                - generic [ref=e312]: Matthew
+            - generic [ref=e313]:
+              - generic [ref=e314]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e315]:
+              - generic [ref=e318]: Not Started
+              - button "Done" [ref=e319]
+          - generic [ref=e322] [cursor=pointer]:
+            - generic [ref=e327]:
+              - text: "UKECareers Website Revamp & Launch: revamp UKETracker; plan launch content (ideas)"
+              - generic [ref=e328]:
+                - generic [ref=e329]: UKECareers Website
+                - generic [ref=e330]: Adam
+            - generic [ref=e331]:
+              - generic [ref=e332]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e333]:
+              - generic [ref=e336]: Not Started
+              - button "Done" [ref=e337]
+          - generic [ref=e340] [cursor=pointer]:
+            - generic [ref=e344]:
+              - text: Review the 24/25 and 25/26 Career Townhall files on Drive; identify research needed; share vision and planning
+              - generic [ref=e345]:
+                - generic [ref=e346]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e347]: Sofea, Olivia, Keiff
+            - generic [ref=e348]:
+              - generic [ref=e349]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e350]:
+              - generic [ref=e355]: Not Started
+              - button "Done" [ref=e356]
+          - generic [ref=e359] [cursor=pointer]:
+            - generic [ref=e363]:
+              - text: Head to Treasury’s Drive and liaise with Treasury office heads to align on FinLit scope and report updates
+              - generic [ref=e364]:
+                - generic [ref=e365]: Financial Literacy (FinLit) 2027
+                - generic [ref=e366]: Zulaikha
+            - generic [ref=e367]:
+              - generic [ref=e368]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e369]:
+              - generic [ref=e372]: Not Started
+              - button "Done" [ref=e373]
+          - generic [ref=e376] [cursor=pointer]:
+            - generic [ref=e381]:
+              - text: Review the [UKEC x Kearney] Partnership Proposal PDF in the Drive folder; propose an overall vision and ideas to resolve the MAG clash (e.g. reschedule, or onboard MAG as a partner with LEAP Programme consideration as a prize)
+              - generic [ref=e382]:
+                - generic [ref=e383]: UKEC Case Challenge 2027
+                - generic [ref=e384]: Yi Lingg
+            - generic [ref=e385]:
+              - generic [ref=e386]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e387]:
+              - generic [ref=e390]: Not Started
+              - button "Done" [ref=e391]
+          - generic [ref=e394] [cursor=pointer]:
+            - generic [ref=e398]:
+              - text: Review the RCE Interest Forms on Drive; identify partnership opportunities with sponsors, MSocs and externals to secure at least two additional RCEs; provide strategic vision
+              - generic [ref=e399]:
+                - generic [ref=e400]: Regional Career Events (RCE)
+                - generic [ref=e401]: Olivia
+            - generic [ref=e402]:
+              - generic [ref=e403]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e404]:
+              - generic [ref=e407]: Not Started
+              - button "Done" [ref=e408]
+          - generic [ref=e411] [cursor=pointer]:
+            - generic [ref=e416]:
+              - text: Review the proposal and relevant Drive documents; provide risk mitigation, vision and execution improvements
+              - generic [ref=e417]:
+                - generic [ref=e418]: "Career Compass: Banking & Finance Day"
+                - generic [ref=e419]: Ronan
+            - generic [ref=e420]:
+              - generic [ref=e421]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e422]:
+              - generic [ref=e425]: Not Started
+              - button "Done" [ref=e426]
+          - generic [ref=e429] [cursor=pointer]:
+            - generic [ref=e433]:
+              - text: Review the proposal and relevant Drive documents; provide risk mitigation, vision and execution improvements
+              - generic [ref=e434]:
+                - generic [ref=e435]: "Career Compass: Legal & Consulting Day"
+                - generic [ref=e436]: Alisha
+            - generic [ref=e437]:
+              - generic [ref=e438]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e439]:
+              - generic [ref=e442]: Not Started
+              - button "Done" [ref=e443]
+          - generic [ref=e446] [cursor=pointer]:
+            - generic [ref=e451]:
+              - text: Refer to the Banking & Finance and Legal & Consulting proposals; submit vision, target companies and risk mitigation
+              - generic [ref=e452]:
+                - generic [ref=e453]: "Career Compass: Engineering & Technology Day"
+                - generic [ref=e454]: Jonathan
+            - generic [ref=e455]:
+              - generic [ref=e456]: Deadline
+              - text: 18 Nov 2026
+            - generic [ref=e457]:
+              - generic [ref=e460]: Not Started
+              - button "Done" [ref=e461]
+          - generic [ref=e464] [cursor=pointer]:
+            - generic [ref=e468]:
+              - text: "Introducing Silver Sponsor: DUG – short-form video (CapCut Pro); send the draft to Wendy first"
+              - generic [ref=e469]:
+                - generic [ref=e470]: "@UKECareers Social Media Platform"
+                - generic [ref=e471]: Xin Yi
+            - generic [ref=e472]:
+              - generic [ref=e473]: Deadline
+              - text: 20 Nov 2026
+            - generic [ref=e474]:
+              - generic [ref=e477]: Not Started
+              - button "Done" [ref=e478]
+          - generic [ref=e481] [cursor=pointer]:
+            - generic [ref=e486]:
+              - text: Draft the Engineering & Technology proposal (ready for QC)
+              - generic [ref=e487]:
+                - generic [ref=e488]: "Career Compass: Engineering & Technology Day"
+                - generic [ref=e489]: Jonathan
+            - generic [ref=e490]:
+              - generic [ref=e491]: Deadline
+              - text: 23 Nov 2026
+            - generic [ref=e492]:
+              - generic [ref=e495]: Not Started
+              - button "Done" [ref=e496]
+          - generic [ref=e499] [cursor=pointer]:
+            - generic [ref=e504]:
+              - text: QC and send the proposal to sponsors
+              - generic [ref=e505]:
+                - generic [ref=e506]: "Career Compass: Engineering & Technology Day"
+                - generic [ref=e507]: Jonathan
+            - generic [ref=e508]:
+              - generic [ref=e509]: Deadline
+              - text: 26 Nov 2026
+            - generic [ref=e510]:
+              - generic [ref=e513]: Not Started
+              - button "Done" [ref=e514]
+          - generic [ref=e517] [cursor=pointer]:
+            - generic [ref=e522]:
+              - text: Promote via social media and MSocs; target >80 attendees
+              - generic [ref=e523]:
+                - generic [ref=e524]: "BMS x UKEC: Young Professionals Mentorship Programme"
+                - generic [ref=e525]: Ashton, Wendy
+            - generic [ref=e526]:
+              - generic [ref=e527]: Deadline
+              - text: Nov 2026
+            - generic [ref=e528]:
+              - generic [ref=e532]: Not Started
+              - button "Done" [ref=e533]
+          - generic [ref=e536] [cursor=pointer]:
+            - generic [ref=e541]:
+              - text: Explore hybrid formats and creative company / participant acquisition strategies; submit vision
+              - generic [ref=e542]:
+                - generic [ref=e543]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e544]: Sofea
+            - generic [ref=e545]:
+              - generic [ref=e546]: Deadline
+              - text: 9 Dec 2026
+            - generic [ref=e547]:
+              - generic [ref=e550]: Not Started
+              - button "Done" [ref=e551]
+          - generic [ref=e554] [cursor=pointer]:
+            - generic [ref=e559]:
+              - text: "Schedule calls with sponsors: MAG (Case Challenge + Career Compass, loop in Yi Lingg); Gamuda (Career Compass only, loop in Keiff)"
+              - generic [ref=e560]:
+                - generic [ref=e561]: "Career Compass: Engineering & Technology Day"
+                - generic [ref=e562]: Jonathan
+            - generic [ref=e563]:
+              - generic [ref=e564]: Deadline
+              - text: Early Dec 2026
+            - generic [ref=e565]:
+              - generic [ref=e568]: Not Started
+              - button "Done" [ref=e569]
+          - generic [ref=e572] [cursor=pointer]:
+            - generic [ref=e576]:
+              - text: Meet sponsors to gauge RCE interest; cross-check UKEC Master Calendar
+              - generic [ref=e577]:
+                - generic [ref=e578]: Regional Career Events (RCE)
+                - generic [ref=e579]: Olivia
+            - generic [ref=e580]:
+              - generic [ref=e581]: Deadline
+              - text: Dec 2026
+            - generic [ref=e582]:
+              - generic [ref=e585]: In Progress
+              - button "Done" [ref=e586]
+          - generic [ref=e589] [cursor=pointer]:
+            - generic [ref=e594]:
+              - text: Meet sponsors on interest; meet RC Scotland and MSocs
+              - generic [ref=e595]:
+                - generic [ref=e596]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e597]: Sofea
+            - generic [ref=e598]:
+              - generic [ref=e599]: Deadline
+              - text: Dec 2026
+            - generic [ref=e600]:
+              - generic [ref=e603]: Not Started
+              - button "Done" [ref=e604]
+          - generic [ref=e607] [cursor=pointer]:
+            - generic [ref=e612]:
+              - text: Draft proposal (structure, timeline, roles, budget) for Vice-Chairperson approval
+              - generic [ref=e613]:
+                - generic [ref=e614]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e615]: Sofea
+            - generic [ref=e616]:
+              - generic [ref=e617]: Deadline
+              - text: Dec 2026
+            - generic [ref=e618]:
+              - generic [ref=e621]: Not Started
+              - button "Done" [ref=e622]
+          - generic [ref=e625] [cursor=pointer]:
+            - generic [ref=e629]:
+              - text: Cluster sponsors into themes; confirm participation; finalise session structure
+              - generic [ref=e630]:
+                - generic [ref=e631]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e632]: Wendy
+            - generic [ref=e633]:
+              - generic [ref=e634]: Deadline
+              - text: Dec 2026
+            - generic [ref=e635]:
+              - generic [ref=e638]: Not Started
+              - button "Done" [ref=e639]
+          - generic [ref=e642] [cursor=pointer]:
+            - generic [ref=e646]:
+              - text: Liaise with RCs for confirmed RCEs
+              - generic [ref=e647]:
+                - generic [ref=e648]: Regional Career Events (RCE)
+                - generic [ref=e649]: Olivia
+            - generic [ref=e650]:
+              - generic [ref=e651]: Deadline
+              - text: Jan 2027
+            - generic [ref=e652]:
+              - generic [ref=e655]: Not Started
+              - button "Done" [ref=e656]
+          - generic [ref=e659] [cursor=pointer]:
+            - generic [ref=e664]:
+              - text: Secure external sponsorship if needed; draft hall layout and floor plan
+              - generic [ref=e665]:
+                - generic [ref=e666]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e667]: Sofea
+            - generic [ref=e668]:
+              - generic [ref=e669]: Deadline
+              - text: Jan 2027
+            - generic [ref=e670]:
+              - generic [ref=e673]: Not Started
+              - button "Done" [ref=e674]
+          - generic [ref=e677] [cursor=pointer]:
+            - generic [ref=e682]:
+              - text: Confirm company details/deliverables; create group chat
+              - generic [ref=e683]:
+                - generic [ref=e684]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e685]: Sofea
+            - generic [ref=e686]:
+              - generic [ref=e687]: Deadline
+              - text: Feb 2027
+            - generic [ref=e688]:
+              - generic [ref=e691]: Not Started
+              - button "Done" [ref=e692]
+          - generic [ref=e695] [cursor=pointer]:
+            - generic [ref=e699]:
+              - text: Launch marketing campaign (IG, Telegram 700 subs, MSoc/affiliate platforms); physical outreach and referral competition
+              - generic [ref=e700]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+            - generic [ref=e702]:
+              - generic [ref=e703]: Deadline
+              - text: Jan–Mar 2027
+            - generic [ref=e704]:
+              - generic [ref=e705]: Unassigned – Requires Allocation
+              - generic [ref=e706]: Not Started
+              - button "Done" [ref=e707]
+          - generic [ref=e710] [cursor=pointer]:
+            - generic [ref=e715]:
+              - text: Registration form, action plan, engagement session topics, send infopack
+              - generic [ref=e716]:
+                - generic [ref=e717]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e718]: Sofea
+            - generic [ref=e719]:
+              - generic [ref=e720]: Deadline
+              - text: Mar 2027
+            - generic [ref=e721]:
+              - generic [ref=e724]: Not Started
+              - button "Done" [ref=e725]
+          - generic [ref=e728] [cursor=pointer]:
+            - generic [ref=e733]:
+              - text: Promo materials and infopack design (Connect Attache)
+              - generic [ref=e734]: Scotland Malaysian Career Summit (SMCS)
+            - generic [ref=e736]:
+              - generic [ref=e737]: Deadline
+              - text: Mar 2027
+            - generic [ref=e738]:
+              - generic [ref=e739]: Unassigned – Requires Allocation
+              - generic [ref=e740]: Not Started
+              - button "Done" [ref=e741]
+          - generic [ref=e744] [cursor=pointer]:
+            - generic [ref=e749]:
+              - text: Run SMCS (>200 attendees, ≥5 sponsors, >150 CVs)
+              - generic [ref=e750]:
+                - generic [ref=e751]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e752]: Sofea
+            - generic [ref=e753]:
+              - generic [ref=e754]: Deadline
+              - text: c. 10 Apr 2027
+            - generic [ref=e755]:
+              - generic [ref=e758]: Not Started
+              - button "Done" [ref=e759]
+          - generic [ref=e762] [cursor=pointer]:
+            - generic [ref=e766]:
+              - text: Monitor CV tracking (>2,000 CVs)
+              - generic [ref=e767]:
+                - generic [ref=e768]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+                - generic [ref=e769]: Wendy, Ashton
+            - generic [ref=e770]:
+              - generic [ref=e771]: Deadline
+              - text: Until Apr 2027
+            - generic [ref=e772]:
+              - generic [ref=e776]: Not Started
+              - button "Done" [ref=e777]
+          - generic [ref=e780] [cursor=pointer]:
+            - generic [ref=e784]:
+              - text: Propose dates, structure and curriculum to sponsors; source speakers
+              - generic [ref=e785]: Industrial Exploration Programme
+            - generic [ref=e787]:
+              - generic [ref=e788]: Deadline
+              - text: Jun 2027
+            - generic [ref=e789]:
+              - generic [ref=e790]: Unassigned – Requires Allocation
+              - generic [ref=e791]: Not Started
+              - button "Done" [ref=e792]
+          - generic [ref=e795] [cursor=pointer]:
+            - generic [ref=e799]:
+              - text: Run ≥3 site visits (>30 participants each)
+              - generic [ref=e800]: Industrial Exploration Programme
+            - generic [ref=e802]:
+              - generic [ref=e803]: Deadline
+              - text: Jul–Aug 2027
+            - generic [ref=e804]:
+              - generic [ref=e805]: Unassigned – Requires Allocation
+              - generic [ref=e806]: Not Started
+              - button "Done" [ref=e807]
+          - generic [ref=e810] [cursor=pointer]:
+            - generic [ref=e814]:
+              - text: Promo, registration form, reminders
+              - generic [ref=e815]: Industrial Exploration Programme
+            - generic [ref=e817]:
+              - generic [ref=e818]: Deadline
+              - text: Jul–Aug 2027
+            - generic [ref=e819]:
+              - generic [ref=e820]: Unassigned – Requires Allocation
+              - generic [ref=e821]: Not Started
+              - button "Done" [ref=e822]
+          - generic [ref=e825] [cursor=pointer]:
+            - generic [ref=e829]:
+              - text: MSoc data collection, affiliations outreach, and High Commissioner & EML endorsements
+              - generic [ref=e830]:
+                - generic [ref=e831]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e832]: Wendy, Ashton
+            - generic [ref=e833]:
+              - generic [ref=e834]: Deadline
+              - text: TBC
+            - generic [ref=e835]:
+              - generic [ref=e839]: Not Started
+              - button "Done" [ref=e840]
+          - generic [ref=e843] [cursor=pointer]:
+            - generic [ref=e847]:
+              - text: Plan FinLit workshop curriculum (financial literacy and introductory investment skills)
+              - generic [ref=e848]:
+                - generic [ref=e849]: Financial Literacy (FinLit) 2027
+                - generic [ref=e850]: Zulaikha
+            - generic [ref=e851]:
+              - generic [ref=e852]: Deadline
+              - text: TBC
+            - generic [ref=e853]:
+              - generic [ref=e856]: Not Started
+              - button "Done" [ref=e857]
+          - generic [ref=e860] [cursor=pointer]:
+            - generic [ref=e865]:
+              - text: Finalise investment challenge event proposal and structure
+              - generic [ref=e866]:
+                - generic [ref=e867]: UKEC Case Challenge 2027
+                - generic [ref=e868]: Yi Lingg
+            - generic [ref=e869]:
+              - generic [ref=e870]: Deadline
+              - text: TBC
+            - generic [ref=e871]:
+              - generic [ref=e874]: In Progress
+              - button "Done" [ref=e875]
+          - generic [ref=e878] [cursor=pointer]:
+            - generic [ref=e882]:
+              - text: "Allocate HODs: CN Curriculum, CN Ops, Career Fair Ops, Interview Day, Sponsor Engagement Sessions, External Liaison, Physical Outreach, Marketing"
+              - generic [ref=e883]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+            - generic [ref=e885]:
+              - generic [ref=e886]: Deadline
+              - text: TBC
+            - generic [ref=e887]:
+              - generic [ref=e888]: Unassigned – Requires Allocation
+              - generic [ref=e889]: Not Started
+              - button "Done" [ref=e890]
+          - generic [ref=e893] [cursor=pointer]:
+            - generic [ref=e897]:
+              - text: Confirm lead EC per sponsor (Master Sheet PIC blank)
+              - generic [ref=e898]: Industrial Exploration Programme
+            - generic [ref=e900]:
+              - generic [ref=e901]: Deadline
+              - text: TBC
+            - generic [ref=e902]:
+              - generic [ref=e903]: Unassigned – Requires Allocation
+              - generic [ref=e904]: Not Started
+              - button "Done" [ref=e905]
+          - generic [ref=e908] [cursor=pointer]:
+            - generic [ref=e912]:
+              - text: Send out sponsor functional briefs
+              - generic [ref=e913]:
+                - generic [ref=e914]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e915]: Ashton
+            - generic [ref=e916]:
+              - generic [ref=e917]: Deadline
+              - text: TBC
+            - generic [ref=e918]:
+              - generic [ref=e921]: In Progress
+              - button "Done" [ref=e922]
+          - generic [ref=e925] [cursor=pointer]:
+            - generic [ref=e929]:
+              - text: Ask BNM to be curriculum supervisor for investment competition (after MACFIS finalised)
+              - generic [ref=e930]:
+                - generic [ref=e931]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e932]: Wendy, Ashton
+            - generic [ref=e933]:
+              - generic [ref=e934]: Deadline
+              - text: TBC
+            - generic [ref=e935]:
+              - generic [ref=e939]: Not Started
+              - button "Done" [ref=e940]
+          - generic [ref=e943] [cursor=pointer]:
+            - generic [ref=e947]:
+              - text: Follow up with PwC on PwC x BNM event
+              - generic [ref=e948]:
+                - generic [ref=e949]: Ongoing Operations (Corporate/Student Liaison)
+                - generic [ref=e950]: Wendy
+            - generic [ref=e951]:
+              - generic [ref=e952]: Deadline
+              - text: TBC
+            - generic [ref=e953]:
+              - generic [ref=e956]: Not Started
+              - button "Done" [ref=e957]
+          - generic [ref=e960] [cursor=pointer]:
+            - generic [ref=e964]:
+              - text: Collect attendance and feedback; post-event report
+              - generic [ref=e965]:
+                - generic [ref=e966]: Financial Literacy (FinLit) 2027
+                - generic [ref=e967]: Zulaikha
+            - generic [ref=e968]:
+              - generic [ref=e969]: Deadline
+              - text: After the event (TBC)
+            - generic [ref=e970]:
+              - generic [ref=e973]: Not Started
+              - button "Done" [ref=e974]
+          - generic [ref=e977] [cursor=pointer]:
+            - generic [ref=e981]:
+              - text: Secure 6 companies for Corporate Networking (Top 100 CVs)
+              - generic [ref=e982]:
+                - generic [ref=e983]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+                - generic [ref=e984]: Wendy, Ashton
+            - generic [ref=e985]:
+              - generic [ref=e986]: Deadline
+              - text: TBC
+            - generic [ref=e987]:
+              - generic [ref=e991]: Not Started
+              - button "Done" [ref=e992]
+          - generic [ref=e995] [cursor=pointer]:
+            - generic [ref=e999]:
+              - text: Gauge sponsor interest in hosting site visits
+              - generic [ref=e1000]: Industrial Exploration Programme
+            - generic [ref=e1002]:
+              - generic [ref=e1003]: Deadline
+              - text: TBC
+            - generic [ref=e1004]:
+              - generic [ref=e1005]: Unassigned – Requires Allocation
+              - generic [ref=e1006]: Not Started
+              - button "Done" [ref=e1007]
+          - generic [ref=e1010] [cursor=pointer]:
+            - generic [ref=e1015]:
+              - text: "Set up analytics: MAU, returning users, link click-through (≥10,000 engagements)"
+              - generic [ref=e1016]:
+                - generic [ref=e1017]: UKECareers Website
+                - generic [ref=e1018]: Adam
+            - generic [ref=e1019]:
+              - generic [ref=e1020]: Deadline
+              - text: TBC
+            - generic [ref=e1021]:
+              - generic [ref=e1024]: Not Started
+              - button "Done" [ref=e1025]
+      - generic [ref=e1028]:
+        - generic [ref=e1029]: Team progress 13
+        - button "Show or hide Team progress" [expanded] [ref=e1031] [cursor=pointer]
+      - generic [ref=e1034]:
+        - generic [aria-hidden] [ref=e1035]:
+          - generic [ref=e1036]: Person
+          - generic [ref=e1037]: Initiatives led
+          - generic [ref=e1038]: Sponsors
+          - generic [ref=e1039]: Their tasks done
+        - generic [ref=e1040]:
+          - generic [ref=e1041]:
+            - generic [ref=e1044]:
+              - link "Wendy" [ref=e1045] [cursor=pointer]:
+                - /url: "#me/Wendy"
+              - generic [ref=e1046]: Vice-Chairperson
+            - generic [ref=e1047]:
+              - generic [ref=e1048]:
+                - generic [ref=e1049]: Sponsors Signing Dinner
+                - generic [ref=e1054]: 100%
+              - generic [ref=e1057]:
+                - generic [ref=e1058]: "BMS x UKEC: Young Professionals Mentorship Programme"
+                - generic [ref=e1063]: 0%
+              - generic [ref=e1065]:
+                - generic [ref=e1066]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+                - generic [ref=e1070]: 0%
+            - generic [ref=e1072]:
+              - generic [ref=e1073]: Shell
+              - generic [ref=e1074]: GRADUAN
+              - generic [ref=e1075]: +15 potential sponsors
+            - generic [ref=e1076]: 24%
+          - generic [ref=e1082]:
+            - generic [ref=e1085]:
+              - link "Ashton" [ref=e1086] [cursor=pointer]:
+                - /url: "#me/Ashton"
+              - generic [ref=e1087]: Assistant Vice-Chairperson
+            - generic [ref=e1088]:
+              - generic [ref=e1089]:
+                - generic [ref=e1090]: "BMS x UKEC: Young Professionals Mentorship Programme"
+                - generic [ref=e1095]: 0%
+              - generic [ref=e1097]:
+                - generic [ref=e1098]: "UKEC x GRADUAN: The Malaysian Career Fair 2027"
+                - generic [ref=e1102]: 0%
+            - generic [ref=e1104]:
+              - generic [ref=e1105]: Shell
+              - generic [ref=e1106]: GRADUAN
+              - generic [ref=e1107]: +15 potential sponsors
+            - generic [ref=e1108]: 0%
+          - generic [ref=e1113]:
+            - generic [ref=e1116]:
+              - link "Jonathan" [ref=e1117] [cursor=pointer]:
+                - /url: "#me/Jonathan"
+              - generic [ref=e1118]: Executive Councillor
+            - generic [ref=e1120]:
+              - generic [ref=e1121]: "Career Compass: Engineering & Technology Day"
+              - generic [ref=e1126]: 0%
+            - generic [ref=e1128]: Gamuda
+            - generic [ref=e1130]: 0%
+          - generic [ref=e1135]:
+            - generic [ref=e1138]:
+              - link "Adam" [ref=e1139] [cursor=pointer]:
+                - /url: "#me/Adam"
+              - generic [ref=e1140]: Executive Councillor
+            - generic [ref=e1141]:
+              - generic [ref=e1142]:
+                - generic [ref=e1143]: "@UKECareers Social Media Platform"
+                - generic [ref=e1147]: 0%
+              - generic [ref=e1149]:
+                - generic [ref=e1150]: UKECareers Website
+                - generic [ref=e1155]: 0%
+            - generic [ref=e1157]: ICAEW
+            - generic [ref=e1159]: 0%
+          - generic [ref=e1164]:
+            - generic [ref=e1167]:
+              - link "Sofea" [ref=e1168] [cursor=pointer]:
+                - /url: "#me/Sofea"
+              - generic [ref=e1169]: Executive Councillor
+            - generic [ref=e1170]:
+              - generic [ref=e1171]:
+                - generic [ref=e1172]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e1176]: 0%
+              - generic [ref=e1178]:
+                - generic [ref=e1179]: Scotland Malaysian Career Summit (SMCS)
+                - generic [ref=e1184]: 0%
+            - generic [ref=e1186]: CIMB
+            - generic [ref=e1188]: 0%
+          - generic [ref=e1193]:
+            - generic [ref=e1196]:
+              - link "Ronan" [ref=e1197] [cursor=pointer]:
+                - /url: "#me/Ronan"
+              - generic [ref=e1198]: Executive Councillor
+            - generic [ref=e1200]:
+              - generic [ref=e1201]: "Career Compass: Banking & Finance Day"
+              - generic [ref=e1206]: 0%
+            - generic [ref=e1208]: Khazanah Nasional (KNB)
+            - generic [ref=e1210]: 0%
+          - generic [ref=e1215]:
+            - generic [ref=e1218]:
+              - link "Alisha" [ref=e1219] [cursor=pointer]:
+                - /url: "#me/Alisha"
+              - generic [ref=e1220]: Executive Councillor
+            - generic [ref=e1222]:
+              - generic [ref=e1223]: "Career Compass: Legal & Consulting Day"
+              - generic [ref=e1227]: 0%
+            - generic [ref=e1229]: PwC
+            - generic [ref=e1231]: 0%
+          - generic [ref=e1236]:
+            - generic [ref=e1239]:
+              - link "Yi Lingg" [ref=e1240] [cursor=pointer]:
+                - /url: "#me/Yi%20Lingg"
+              - generic [ref=e1241]: Executive Councillor
+            - generic [ref=e1243]:
+              - generic [ref=e1244]: UKEC Case Challenge 2027
+              - generic [ref=e1249]: 0%
+            - generic [ref=e1251]: Malaysia Aviation Group (MAG)
+            - generic [ref=e1253]: 0%
+          - generic [ref=e1258]:
+            - generic [ref=e1261]:
+              - link "Olivia" [ref=e1262] [cursor=pointer]:
+                - /url: "#me/Olivia"
+              - generic [ref=e1263]: Executive Councillor
+            - generic [ref=e1264]:
+              - generic [ref=e1265]:
+                - generic [ref=e1266]: "Career Town Hall 2026/27: National Talent Report"
+                - generic [ref=e1270]: 0%
+              - generic [ref=e1272]:
+                - generic [ref=e1273]: Regional Career Events (RCE)
+                - generic [ref=e1277]: 0%
+            - generic [ref=e1279]: DUG
+            - generic [ref=e1281]: 0%
+          - generic [ref=e1286]:
+            - generic [ref=e1289]:
+              - link "Keiff" [ref=e1290] [cursor=pointer]:
+                - /url: "#me/Keiff"
+              - generic [ref=e1291]: Attaché of SnS
+            - generic [ref=e1293]:
+              - generic [ref=e1294]: "Career Town Hall 2026/27: National Talent Report"
+              - generic [ref=e1298]: 0%
+            - generic [ref=e1300]: None
+            - generic [ref=e1301]: 0%
+          - generic [ref=e1306]:
+            - generic [ref=e1309]:
+              - link "Zulaikha" [ref=e1310] [cursor=pointer]:
+                - /url: "#me/Zulaikha"
+              - generic [ref=e1311]: Attaché of Treasury
+            - generic [ref=e1313]:
+              - generic [ref=e1314]: Financial Literacy (FinLit) 2027
+              - generic [ref=e1318]: 0%
+            - generic [ref=e1320]: None
+            - generic [ref=e1321]: 0%
+          - generic [ref=e1326]:
+            - generic [ref=e1329]:
+              - link "Matthew" [ref=e1330] [cursor=pointer]:
+                - /url: "#me/Matthew"
+              - generic [ref=e1331]: Attaché of Connect
+            - generic [ref=e1333]:
+              - generic [ref=e1334]: "@UKECareers Social Media Platform"
+              - generic [ref=e1338]: 0%
+            - generic [ref=e1340]: None
+            - generic [ref=e1341]: 0%
+          - generic [ref=e1346]:
+            - generic [ref=e1349]:
+              - link "Xin Yi" [ref=e1350] [cursor=pointer]:
+                - /url: "#me/Xin%20Yi"
+              - generic [ref=e1351]: Attaché of Connect
+            - generic [ref=e1353]:
+              - generic [ref=e1354]: "@UKECareers Social Media Platform"
+              - generic [ref=e1358]: 0%
+            - generic [ref=e1360]: Wong & Partners
+            - generic [ref=e1362]: 0%
+  - banner [ref=e1367]:
+    - status [ref=e1368]:
+      - generic [ref=e1369]: Connecting…
+  - tooltip "Access link"
